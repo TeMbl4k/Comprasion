@@ -128,6 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Comprasion.cpp" />
+    <ClCompile Include="greater_than_or_equal.cpp" />
+    <ClCompile Include="geometricMean.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="geometricMean.h" />
+    <ClInclude Include="greater_than_or_equal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
