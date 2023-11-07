@@ -29,15 +29,13 @@ void main() {
 
     cout << "-Result-" << endl;
 
-    if (greater_than_or_equal(array1[0], array2[0]))
-        cout << "A[0] >= B[0]" << endl;
-    else 
-        cout << "A[0] < B[0]" << endl;
+    cout << "A[0]";
+    greater_than_or_equal(array1[0], array2[0]) ? cout << " >=  " : cout << " < ";
+    cout << "B[0]" << endl;
 
-    if (greater_than_or_equal(geometricMean(array1, a_size), geometricMean(array2, b_size)))
-        cout << "GM(A) >= GM(B)" << endl;
-    else
-        cout << "GM(A) < GM(B)" << endl;
+    cout << "GM(A)";
+    greater_than_or_equal(array1, a_size, array2, b_size) ? cout << " >= " : cout <<  " < ";
+    cout << "GM(B)" << endl;
 
 
     delete[] array1;
